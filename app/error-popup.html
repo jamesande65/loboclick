@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="error-popup popup">
+        <div class="popup-header">
+            <div class="sidebar-header">
+                <img src="img/logo.png" alt="logo">
+                <span class="logo-text light-text">Lobo<span class="bold-text">dash</span></span>
+            </div>
+            <div class="popup-close" onclick="$(this).closest('.popup').remove();">
+                <span class="icon icon-close"></span>
+            </div>
+        </div>
+        <div class="popup-body">
+            <span class="icon icon-close"></span>
+            <span class="popup-title">Error Text</span>
+            <span class="popup-small-title">Whale  is the common name for various</span>
+            <p class="popup-text">Mammals of the order Cetacea. The term whale sometimes refers to all cetaceans, but more often it excludes dolphins and porpoises.</p>
+        </div>
+        <div class="popup-bottom">
+            <span class="btn" onclick="$(this).closest('.popup').remove();">close</span>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

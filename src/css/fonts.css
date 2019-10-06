@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'SourceSansPro-Light';
+    src: url('fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SourceSansPro-Light.woff') format('woff'),
+    url('fonts/SourceSansPro-Light.ttf')  format('truetype'),
+    url('fonts/SourceSansPro-Light.svg#HindGuntur-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SourceSansPro-Regular.woff') format('woff'),
+    url('fonts/SourceSansPro-Regular.ttf')  format('truetype'),
+    url('fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Medium';
+    src: url('fonts/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SourceSansPro-SemiBold.woff') format('woff'),
+    url('fonts/SourceSansPro-SemiBold.ttf')  format('truetype'),
+    url('fonts/SourceSansPro-SemiBold.svg#HindGuntur-Medium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Bold';
+    src: url('fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SourceSansPro-Bold.woff') format('woff'),
+    url('fonts/SourceSansPro-Bold.ttf')  format('truetype'),
+    url('fonts/SourceSansPro-Bold.svg#HindGuntur-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/OpenSans-Regular.woff') format('woff'),
+    url('fonts/OpenSans-Regular.ttf')  format('truetype'),
+    url('fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Roboto-Regular.woff') format('woff'),
+    url('fonts/Roboto-Regular.ttf')  format('truetype'),
+    url('fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SignikaNegative-Regular';
+    src: url('fonts/SignikaNegative-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/SignikaNegative-Regular.woff') format('woff'),
+    url('fonts/SignikaNegative-Regular.ttf')  format('truetype'),
+    url('fonts/SignikaNegative-Regular.svg#SignikaNegative-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+/* icon font */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?ss6ovq');
+    src:  url('fonts/icomoon.eot?ss6ovq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ss6ovq') format('truetype'),
+    url('fonts/icomoon.woff?ss6ovq') format('woff'),
+    url('fonts/icomoon.svg?ss6ovq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-smartlinks:before {
+    content: "\e91a";
+}
+.icon-stats:before {
+    content: "\e900";
+}
+.icon-alarm-bell:before {
+    content: "\e901";
+}
+.icon-angle-left:before {
+    content: "\e902";
+}
+.icon-angle-right:before {
+    content: "\e903";
+}
+.icon-arrow:before {
+    content: "\e904";
+}
+.icon-back:before {
+    content: "\e905";
+}
+.icon-burger:before {
+    content: "\e906";
+}
+.icon-calendar:before {
+    content: "\e907";
+}
+.icon-card:before {
+    content: "\e908";
+}
+.icon-close:before {
+    content: "\e909";
+}
+.icon-delete:before {
+    content: "\e90a";
+}
+.icon-earnings:before {
+    content: "\e90b";
+}
+.icon-edit:before {
+    content: "\e90c";
+}
+.icon-graph:before {
+    content: "\e90d";
+}
+.icon-logout:before {
+    content: "\e90e";
+}
+.icon-mail:before {
+    content: "\e90f";
+}
+.icon-money:before {
+    content: "\e910";
+}
+.icon-news-report:before {
+    content: "\e911";
+}
+.icon-ok:before {
+    content: "\e912";
+}
+.icon-reload:before {
+    content: "\e913";
+}
+.icon-search:before {
+    content: "\e914";
+}
+.icon-settings:before {
+    content: "\e915";
+}
+.icon-shopping-cart:before {
+    content: "\e916";
+}
+.icon-speedometer:before {
+    content: "\e917";
+}
+.icon-statistics:before {
+    content: "\e918";
+}
+.icon-user:before {
+    content: "\e919";
+}

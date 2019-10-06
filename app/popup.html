@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="popup">
+        <div class="popup-header">
+            <span class="popup-name">Popup Name</span>
+            <div class="popup-close" onclick="$(this).closest('.popup').remove();">
+                <span class="icon icon-close"></span>
+            </div>
+        </div>
+        <div class="popup-body">
+            <div class="filter-block__form">
+                <div class="filter-block__form-group input-block__group">
+                    <div class="filter-block__form-label">Nome*</div>
+                    <input class="filter-block__form-input" value="" placeholder="Anunciates">
+                </div>
+                <div class="filter-block__form-group">
+                    <div class="filter-block__form-label">Status*</div>
+                    <div class="filter-block__form-select"
+                         onclick="$(this).find('span')[0].classList.toggle('active');$(this).find('ul')[0].classList.toggle('active');">
+                        <span class="statistics-block__select-visible">Ativo</span>
+                        <ul>
+                            <li>300 x 250</li>
+                            <li>300 x 250</li>
+                            <li>300 x 250</li>
+                            <li class="active">300 x 250</li>
+                            <li>300 x 250</li>
+                            <li>300 x 250</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="filter-block__form-group">
+                    <div class="filter-block__form-label">Status*</div>
+                    <div class="filter-block__form-select"
+                         onclick="$(this).find('span')[0].classList.toggle('active');$(this).find('ul')[0].classList.toggle('active');">
+                        <span class="statistics-block__select-visible">Ativo</span>
+                        <ul>
+                            <li>300 x 250</li>
+                            <li>300 x 250</li>
+                            <li>300 x 250</li>
+                            <li class="active">300 x 250</li>
+                            <li>300 x 250</li>
+                            <li>300 x 250</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="popup-bottom">
+            <div class="bottom-button-block">
+                <span class="btn"><span class="icon icon-back"></span>back or cancel</span>
+                <span class="btn btn-green"><span class="icon icon-ok"></span> Salvar</span>
+            </div>            
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
